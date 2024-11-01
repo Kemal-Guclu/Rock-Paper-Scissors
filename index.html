@@ -7,5 +7,42 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Rock Paper Scissors JS</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h1>Sten Sax Påse</h1>
+      <img
+        class="logo-img"
+        src="images/Rock-paper-scissors-sv.svg.png"
+        alt="Logo bild för spelet"
+      />
+    </header>
+    <div class="game-container">
+      <div class="game">
+        <p class="start-text">Välj ett alternativ för att starta spelet</p>
+        <button class="rock">
+          <img class="emoji" src="images/rock-emoji.png" alt="rock-emoji" />
+        </button>
+        <button class="scissors">
+          <img
+            class="emoji"
+            src="images/scissors-emoji.png"
+            alt="scissors-emoji"
+          />
+        </button>
+        <button class="paper">
+          <img class="emoji" src="images/paper-emoji.png" alt="paper-emoji" />
+        </button>
+        <div class="result">
+          <h2>Resultat</h2>
+          <p class="result-text para-res">Du vinner, du förlorar!</p>
+          <p class="movements para-res">Du valde: Sten-Datorn fick Sax</p>
+          <p class="scores para-res">
+            Dina poäng: <span class="win-score">Vinst: 0</span> -
+            <span class="lose-score">Förlust: 0</span> -
+            <span class="tie-score">Jämna: 0</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
